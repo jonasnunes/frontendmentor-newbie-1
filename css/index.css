@@ -75,7 +75,8 @@ body {
   cursor: pointer;
 }
 .main-buttons ul .input:hover {
-  opacity: 0.7;
+  background-color: hsl(25deg, 97%, 53%);
+  color: #fff;
 }
 .main .button {
   display: flex;
