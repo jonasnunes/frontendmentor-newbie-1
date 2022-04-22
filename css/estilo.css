@@ -42,6 +42,20 @@ body {
 .main-b p {
   text-align: center;
 }
+.main-b .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  background-color: hsl(25deg, 97%, 53%);
+  padding: 0.2rem;
+  width: 5rem;
+  border-radius: 2rem;
+}
+.main-b .link a {
+  text-decoration: none;
+  color: #000;
+}
 .main .icon {
   background-color: HSL(220, 16%, 21%);
   padding: 1rem;
@@ -98,4 +112,4 @@ body {
   opacity: 0.85;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=estilo.css.map */

@@ -7,7 +7,7 @@
     <title>Interactive Rating Component</title>
 
     <!-- Estilos -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/estilo.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
@@ -27,6 +27,10 @@
             <?php echo "<p>$mensagem</p>"; ?>
             <h1>Thank you!</h1>
             <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+            <div class="link">
+                <img class="arrow" src="assets/arrow.png" alt="arrow" width="15">
+                <a href="index.php">Back</a>
+            </div>
         </div>
     </main>
 </body>

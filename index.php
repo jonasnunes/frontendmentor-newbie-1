@@ -7,7 +7,7 @@
     <title>Interactive Rating Component</title>
 
     <!-- Estilos -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/estilo.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
