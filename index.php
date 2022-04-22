@@ -19,29 +19,32 @@
 </head>
 <body>
 
+    <?php require_once "includes/code.php" ?>
+
     <main class="main">
         <img class="icon" src="assets/icon-star.svg" alt="icon star">
         <h1>How did we do?</h1>
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
         <div class="main-buttons">
-            <ul>
-                <li>
-                    <input class="input" type="submit" value="1">
-                </li>
-                <li>
-                    <input class="input" type="submit" value="2">
-                </li>
-                <li>
-                    <input class="input" type="submit" value="3">
-                </li>
-                <li>
-                    <input class="input" type="submit" value="4">
-                </li>
-                <li>
-                    <input class="input" type="submit" value="5">
-                </li>
-            </ul>
-            <a href="page-2.html" class="button" id="botao">Submit</a>
+            <form method="get" action="page-2.php">
+                <ul>
+                    <li>
+                        <input type="submit" name="n" value="1" class="input">
+                    </li>
+                    <li>
+                        <input class="input" type="submit" name="n" value="2">
+                    </li>
+                    <li>
+                        <input class="input" type="submit" name="n" value="3">
+                    </li>
+                    <li>
+                        <input class="input" type="submit" name="n" value="4">
+                    </li>
+                    <li>
+                        <input class="input" type="submit" name="n" value="5">
+                    </li>
+                </ul>
+            </form>
         </div>
     </main>
 </body>
